@@ -32,7 +32,8 @@
 	var tabs=document.querySelector("nav > ul");
 	var menuLi=null;
 	var info=null;
-	var requestURL="../data/tab_info.json";
+	//var requestURL="../data/tab_info.json";
+	var requestURL="data/tab_info.json";
 	var request=new XMLHttpRequest();
 	var appendHtml="";
 
